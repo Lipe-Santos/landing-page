@@ -318,6 +318,11 @@ h1, h2 {
 
 @media screen and (min-width: 800px) {
 
+    .main-header {
+        background-image: url('../images/bg-hero-desktop.svg');
+        background-size: cover;
+    }
+
     .main-header .container {
         padding-top: 4em;
     }
