@@ -258,14 +258,13 @@ footer {
     margin-right: 1.5em;
 }
 
-.footer__grid--social-media li {
-    display: inline-block;
+.footer__grid--social-media {
+    display: flex;
 }
 
-.footer__grid--social-media li + li {
-    margin-left: 1.5em;
+.footer__grid--social-media li + li{
+    margin-left: 1em;
 }
-
 .footer__grid--social-media li a {
     display: block;
     font-size: 2rem;
@@ -351,7 +350,7 @@ footer {
     }
 
     .footer__grid--social-media {
-        text-align: center;
+        justify-content: center;
     }
 }
 
